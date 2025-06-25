@@ -703,61 +703,64 @@
     });
   </script>
   <script id="formValidationScript">
-    document.addEventListener('DOMContentLoaded', function() {
-      const forms = document.querySelectorAll('form');
-      forms.forEach(form => {
-        form.addEventListener('submit', function(e) {
-          e.preventDefault();
-          let isValid = true;
-          const inputs = form.querySelectorAll('input, textarea, select');
-          inputs.forEach(input => {
-            if (input.value.trim() === '' && input.hasAttribute('required')) {
-              isValid = false;
-              input.classList.add('border-red-500');
-              const errorMessage = document.createElement('p');
-              errorMessage.className = 'text-red-500 text-xs mt-1';
-              errorMessage.textContent = 'Ce champ est obligatoire';
-              const existingError = input.parentNode.querySelector('.text-red-500');
-              if (!existingError) {
-                input.parentNode.appendChild(errorMessage);
-              }
-            } else {
-              input.classList.remove('border-red-500');
-              const existingError = input.parentNode.querySelector('.text-red-500');
-              if (existingError) {
-                existingError.remove();
-              }
+  document.addEventListener('DOMContentLoaded', function() {
+    const forms = document.querySelectorAll('form');
+    forms.forEach(form => {
+      form.addEventListener('submit', function(e) {
+        let isValid = true;
+        const inputs = form.querySelectorAll('input, textarea, select');
+
+        form.querySelectorAll('.text-red-500').forEach(el => el.remove());
+
+        inputs.forEach(input => {
+          if (input.value.trim() === '' && input.hasAttribute('required')) {
+            isValid = false;
+            input.classList.add('border-red-500');
+            const errorMessage = document.createElement('p');
+            errorMessage.className = 'text-red-500 text-xs mt-1';
+            errorMessage.textContent = 'Ce champ est obligatoire';
+            input.parentNode.appendChild(errorMessage);
+          } else {
+            input.classList.remove('border-red-500');
+            const existingError = input.parentNode.querySelector('.text-red-500');
+            if (existingError) {
+              existingError.remove();
             }
-          });
-          if (isValid) {
-            const successMessage = document.createElement('div');
-            successMessage.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mt-4';
-            successMessage.innerHTML = `
-<div class="flex items-center">
-<i class="ri-checkbox-circle-line mr-2"></i>
-<span>Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.</span>
-</div>
-`;
-            const existingSuccess = form.querySelector('.bg-green-100');
-            if (existingSuccess) {
-              existingSuccess.remove();
-            }
-            form.appendChild(successMessage);
-            form.reset();
-            setTimeout(() => {
-              successMessage.remove();
-            }, 5000);
           }
         });
+
+        if (!isValid) {
+          e.preventDefault(); // ❗ Empêche d’envoyer uniquement si c’est invalide
+        } else {
+          // Affiche le message visuel, mais laisse Netlify gérer l’envoi réel
+          const successMessage = document.createElement('div');
+          successMessage.className = 'bg-green-100 border border-green-400 text-green-700 px-4 py-3 rounded mt-4';
+          successMessage.innerHTML = `
+            <div class="flex items-center">
+              <i class="ri-checkbox-circle-line mr-2"></i>
+              <span>Votre message a été envoyé avec succès. Nous vous répondrons dans les plus brefs délais.</span>
+            </div>
+          `;
+          const existingSuccess = form.querySelector('.bg-green-100');
+          if (existingSuccess) {
+            existingSuccess.remove();
+          }
+          form.appendChild(successMessage);
+          form.reset();
+          setTimeout(() => {
+            successMessage.remove();
+          }, 5000);
+        }
       });
     });
-  </script>
+  });
+</script>
   <script id="smoothScrollScript">
     document.addEventListener('DOMContentLoaded', function() {
+      e.preventDefault()
       const links = document.querySelectorAll('a[href^="#"]');
       links.forEach(link => {
         link.addEventListener('click', function(e) {
-          e.preventDefault();
           const targetId = this.getAttribute('href');
           const targetElement = document.querySelector(targetId);
           if (targetElement) {
