@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rentrée scolaire 2025-2026 – TETEA ASBL-RDC & Forever United</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      margin: 0;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      color: #2c3e50;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    .gallery-item {
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 10px;
+      max-width: 300px;
+      text-align: center;
+    }
+    .gallery-item img {
+      width: 100%;
+      border-radius: 5px;
+    }
+    .caption {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Ouverture de la rentrée scolaire 2025-2026</h1>
+  <p>En collaboration avec <strong>Forever United</strong>, TETEA ASBL-RDC a apporté soutien et joie aux orphelins du centre Mafathedi.</p>
+
+  <div class="gallery">
+    
+    <!-- Image 1 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/nMM7WqM7/IMG-5336.avif" alt="Accueil des enfants">
+      <div class="caption">Accueil chaleureux des enfants du centre Mafathedi.</div>
+    </div>
+
+    <!-- Image 2 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/5QHCFWDp/IMG-5338.avif" alt="Distribution des fournitures">
+      <div class="caption">Distribution des fournitures scolaires aux orphelins.</div>
+    </div>
+
+    <!-- Image 3 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/Js3BXqdw/IMG-5340.avif" alt="Moment de joie">
+      <div class="caption">Moments de joie et sourires sur les visages des enfants.</div>
+    </div>
+
+    <!-- Image 4 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/68xvTScL/IMG-5824.avif" alt="Animation éducative">
+      <div class="caption">Animation éducative pour sensibiliser les enfants.</div>
+    </div>
+
+    <!-- Image 5 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/SXyYfMwn/IMG-5837.avif" alt="Remise de kits scolaires">
+      <div class="caption">Remise de kits scolaires fournis par TETEA ASBL-RDC et Forever United.</div>
+    </div>
+
+    <!-- Image 6 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/njrs6tVZ/IMG-5840.avif" alt="Jeux et activités">
+      <div class="caption">Jeux et activités pour un moment de détente avec les enfants.</div>
+    </div>
+
+    <!-- Image 7 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/kVf615mf/IMG-5842.avif" alt="Soutien aux enfants">
+      <div class="caption">Accompagnement et soutien aux enfants orphelins du centre.</div>
+    </div>
+
+    <!-- Image 8 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/kDkVhZ03/IMG-5843.avif" alt="Moment de prière">
+      <div class="caption">Un moment de prière et de bénédiction pour la nouvelle année scolaire.</div>
+    </div>
+
+    <!-- Image 9 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/q6CNvXC5/IMG-5844.avif" alt="Distribution de fournitures">
+      <div class="caption">Distribution des fournitures aux enfants du centre.</div>
+    </div>
+
+    <!-- Image 10 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/HVXJGzmJ/IMG-5845.avif" alt="Jeux collectifs">
+      <div class="caption">Jeux collectifs pour encourager la camaraderie entre enfants.</div>
+    </div>
+
+    <!-- Image 11 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/wyrtzb3N/IMG-5846.avif" alt="Sourires radieux">
+      <div class="caption">Sourires radieux des enfants heureux de la rentrée.</div>
+    </div>
+
+    <!-- Image 12 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/3khk3Grt/IMG-5847.avif" alt="Animation ludique">
+      <div class="caption">Animation ludique et éducative pour stimuler l’apprentissage.</div>
+    </div>
+
+    <!-- Image 13 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/SnGJRKJk/IMG-5848.avif" alt="Distribution de fournitures">
+      <div class="caption">Autre remise de fournitures scolaires aux enfants.</div>
+    </div>
+
+    <!-- Image 14 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/hzXj2bMt/IMG-5849.avif" alt="Activité manuelle">
+      <div class="caption">Activité manuelle pour éveiller la créativité des enfants.</div>
+    </div>
+
+    <!-- Image 15 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/cK9C75Rz/IMG-5850.avif" alt="Moment de partage">
+      <div class="caption">Partage et échanges entre bénévoles et enfants.</div>
+    </div>
+
+    <!-- Image 16 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/zHWfrzsm/IMG-5851.avif" alt="Rires et jeux">
+      <div class="caption">Rires et jeux pour renforcer le lien social.</div>
+    </div>
+
+    <!-- Image 17 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/gwkrZPZR/IMG-5852.avif" alt="Encadrement éducatif">
+      <div class="caption">Encadrement éducatif des enfants par les volontaires.</div>
+    </div>
+
+    <!-- Image 18 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/G9stYKHM/IMG-5853.avif" alt="Distribution de kits">
+      <div class="caption">Distribution des kits scolaires pour bien commencer l’année.</div>
+    </div>
+
+    <!-- Image 19 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/YGTSZGyf/IMG-5854.avif" alt="Activité éducative">
+      <div class="caption">Activité éducative pour encourager la participation des enfants.</div>
+    </div>
+
+    <!-- Image 20 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/TpDbdGV3/IMG-5860.avif" alt="Jeux collectifs">
+      <div class="caption">Jeux collectifs pour renforcer la cohésion entre enfants.</div>
+    </div>
+
+    <!-- Image 21 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/Sj58bjzP/IMG-5861.avif" alt="Partage de moments">
+      <div class="caption">Partage de moments joyeux avec les enfants.</div>
+    </div>
+
+    <!-- Image 22 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/5Xp21kRt/IMG-5862.avif" alt="Distribution de fournitures">
+      <div class="caption">Distribution des fournitures scolaires pour chaque enfant.</div>
+    </div>
+
+    <!-- Image 23 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/2VR6xWWC/IMG-5863.avif" alt="Rire et joie">
+      <div class="caption">Rires et joie au centre Mafathedi.</div>
+    </div>
+
+    <!-- Image 24 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/GHFpgpPG/IMG-5864.avif" alt="Encadrement et soutien">
+      <div class="caption">Encadrement et soutien par les bénévoles de TETEA ASBL-RDC et Forever United.</div>
+    </div>
+
+    <!-- Image 25 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/68BpkNzS/IMG-5865.avif" alt="Moment de prière">
+      <div class="caption">Moment de prière pour bénir la rentrée scolaire 2025-2026.</div>
+    </div>
+
+    <!-- Image 26 -->
+    <div class="gallery-item">
+      <img src="https://i.postimg.cc/mcD2rNvy/IMG-5866.avif" alt="Clôture de l'événement">
+      <div class="caption">Clôture de l'événement avec des sourires et des remerciements.</div>
+    </div>
+
+  </div>
+
+</body>
+</html>
