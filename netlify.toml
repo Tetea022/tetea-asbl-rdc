@@ -1,0 +1,11 @@
+[[redirects]]
+from = "/*"
+to = "https://teteardc.netlify.app/:splat"
+status = 301
+force = true
+
+Redirection de base (Canonical)
+[[redirects]]
+  from = "/index.html"
+  to = "/"
+  status = 301
