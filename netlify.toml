@@ -1,6 +1,6 @@
 [[redirects]]
 from = "/*"
-to = "https://teteardc.netlify.app/:splat"
+to = "https://teteardc.netlify.app/"
 status = 301
 force = true
 
